@@ -1,0 +1,203 @@
+nav {
+  color: black;
+  background-color: #fff;
+}
+
+nav .brand-logo{
+  color:black;
+  margin-left: 3%;
+}
+
+nav ul a{
+  color:black;
+}
+
+.button-collapse{
+  color: #808080;
+}
+.mobile-nav{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+.card-panel{
+ 
+  background-image: 
+  linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
+  url('/nodes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+background-position:center;
+  position: relative;
+  display: block;
+  flex-direction: row;
+  z-index: 100;
+  margin-top:0;
+  width: 100%;
+  
+  }
+
+.homepage__header {
+  width: 100%;
+  min-height: 500px;
+  max-height: unset;
+  
+}
+
+.headline{
+  line-height: 0%;
+  margin-top: 21%;
+}
+
+.title-headline{
+  -webkit-text-stroke: 1px black;
+  font-size: 5em;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-shadow:
+                3px 3px 0 black,
+              -1px -1px 0 black,  
+               1px -1px 0 black,
+               -1px 1px 0 black,
+                1px 1px 0 black;
+}
+
+.sub-tag{
+  font-size: 1.5em;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  vertical-align: middle;
+}
+
+.cdnlogo{
+  vertical-align: middle;
+}
+
+a { color: inherit; } 
+
+.wrapper {
+  height: 64px;
+}
+
+.table-of-contents a:hover
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+     border-left: none;
+     font-family: 'Lato', sans-serif;
+}
+
+.bs-sidebar {
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.07);
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-family: 'Lato', sans-serif;
+  margin-top:25px;
+}
+
+.table-of-contents ul {
+  cursor: pointer;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.table-of-contents a.active {
+  border-left: 4px solid #2b95fd;
+  padding-left: 17px;
+  color: #30373b;
+}
+
+
+.table-of-contents li {
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  padding: 0 21px;
+  margin: 24px 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.bs-feature__title{
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Lato', sans-serif;
+}
+.list-title{
+  font-weight:bold;
+  font-family: 'Lato', sans-serif;
+}
+
+.bs-sidebar__contact{
+  padding: 21px;
+  background-color: #f6f7f8;
+  font-family: 'Lato', sans-serif;
+};
+
+.connect{
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  padding: 21px;
+}
+
+
+
+.bs-sidebar__info{
+  font-size: 10px;
+  letter-spacing: .3px;
+  text-align: left;
+  color: #696e7c;
+  /* margin: 0 0 8px; */
+  font-style: italic;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+.logo{
+  vertical-align: middle;
+}
+.email{
+  font-size: 14px;
+  letter-spacing: .3px;
+  text-align: left;
+  color: #696e7c;
+  font-style: italic;
+  display: inline-flex;
+  vertical-align: middle;
+  font-family: 'Lato', sans-serif;
+}
+
+
+@media only screen and (max-width: 993px){
+.bs-sidebar {
+    display: none;
+}
+} 
+
+@media only screen and (max-width: 600px){
+  .cdnlogo{
+    display: none;
+  }
+.sub-tag{
+  font-size:1.3em;
+}
+.title-headline{
+  font-size: 3.9em;
+  margin-top:50%;
+}} 
+
+.section{
+  font-family: 'Lato', sans-serif;
+}
